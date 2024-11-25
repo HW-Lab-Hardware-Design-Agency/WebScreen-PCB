@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP73871
+D MCU 32bit/MIPS ROM:32KB RAM:8KB USB [DIP-28]
+$ENDCMP
+#
+$CMP USB2512B
+D USB2 Hub 2Port [QFN-36]
+$ENDCMP
+#
+#End Doc Library

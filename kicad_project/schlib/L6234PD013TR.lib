@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model L6234PD013TR
+#/182/1015163/2.50/21/3/Integrated Circuit
+DEF L6234PD013TR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "L6234PD013TR" 1250 200 50 H V L CNN
+F2 "SOIC127P1420X360-21N" 1250 100 50 H I L CNN
+F3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000046.pdf" 1250 0 50 H I L CNN
+F4 "Motor / Motion / Ignition Controllers & Drivers Three Phase Motor" 1250 -100 50 H I L CNN "Description"
+F5 "3.6" 1250 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "L6234PD013TR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-L6234PD013TR" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6234PD013TR?qs=5zI%2F%2F64nBPAfMJsSQWVT0g%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "L6234PD013TR" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/l6234pd013tr/stmicroelectronics?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 1 0 0 200 R 50 50 0 0 P
+X SENSE1 2 0 -100 200 R 50 50 0 0 P
+X EN2 3 0 -200 200 R 50 50 0 0 P
+X IN2 4 0 -300 200 R 50 50 0 0 P
+X OUT2 5 0 -400 200 R 50 50 0 0 P
+X OUT1 6 0 -500 200 R 50 50 0 0 P
+X IN1 7 0 -600 200 R 50 50 0 0 P
+X EN1 8 0 -700 200 R 50 50 0 0 P
+X VS_1 9 0 -800 200 R 50 50 0 0 P
+X GND_2 10 0 -900 200 R 50 50 0 0 P
+X EP 21 700 -1400 200 U 50 50 0 0 P
+X GND_4 20 1400 0 200 L 50 50 0 0 P
+X SENSE2 19 1400 -100 200 L 50 50 0 0 P
+X VBOOT 18 1400 -200 200 L 50 50 0 0 P
+X VCP 17 1400 -300 200 L 50 50 0 0 P
+X VREF 16 1400 -400 200 L 50 50 0 0 P
+X OUT3 15 1400 -500 200 L 50 50 0 0 P
+X IN3 14 1400 -600 200 L 50 50 0 0 P
+X EN3 13 1400 -700 200 L 50 50 0 0 P
+X VS_2 12 1400 -800 200 L 50 50 0 0 P
+X GND_3 11 1400 -900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

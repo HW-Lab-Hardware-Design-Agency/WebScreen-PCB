@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Power_Display_oled")(type "KiCad")(uri "${KIPRJMOD}/schlib/Power_Display_oled.kicad_sym")(options "")(descr ""))
+)
