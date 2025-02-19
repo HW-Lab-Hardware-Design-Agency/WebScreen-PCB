@@ -1,1 +1,1 @@
-{"EXTRA_LAYERS": "F.Fab, B.Fab", "EXTEND_EDGE_CUT": false, "AUTO TRANSLATE": true, "AUTO FILL": true, "EXCLUDE DNP": true}
+{"EXTRA_LAYERS": "F.Fab, B.Fab, MPN", "EXTEND_EDGE_CUT": false, "ALTERNATIVE_EDGE_CUT": false, "AUTO TRANSLATE": true, "AUTO FILL": true, "EXCLUDE DNP": true}

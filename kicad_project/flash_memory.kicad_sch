@@ -6,112 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "WebScreen Project")
-		(rev "0")
+		(date "2024-11-02")
+		(rev "1.2")
 		(company "HW Media Lab LLC")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -811,12 +710,6 @@
 		(color 0 0 0 0)
 		(uuid "cefeeaf8-afc6-40f9-b244-ca6d59d18053")
 	)
-	(junction
-		(at 138.43 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb072bd3-64c4-42ee-8b9d-0736eb13fc4c")
-	)
 	(wire
 		(pts
 			(xy 125.73 95.25) (xy 125.73 96.52)
@@ -919,16 +812,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 152.4 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf06dc2-7da7-4de7-bd0f-20c875d19940")
-	)
-	(wire
-		(pts
 			(xy 166.37 97.79) (xy 166.37 105.41)
 		)
 		(stroke
@@ -959,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 138.43 95.25)
+			(xy 125.73 95.25) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -977,6 +860,20 @@
 		)
 		(uuid "ffbffa06-78a6-4deb-84ee-4e866d314e43")
 	)
+	(text "FLASH MEMORY"
+		(exclude_from_sim no)
+		(at 208.534 28.956 0)
+		(effects
+			(font
+				(face "ISOCPEUR")
+				(size 7.62 7.62)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d562afd-2c8e-496b-a7a6-4c76662b62a0")
+	)
 	(text "Reemplacement: \nW25Q128JVSIQ"
 		(exclude_from_sim no)
 		(at 152.654 133.35 0)
@@ -990,7 +887,6 @@
 	(hierarchical_label "SPIQ"
 		(shape output)
 		(at 182.88 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1002,7 +898,6 @@
 	(hierarchical_label "SPID"
 		(shape output)
 		(at 182.88 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1014,7 +909,6 @@
 	(hierarchical_label "SPIHD"
 		(shape output)
 		(at 182.88 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1026,7 +920,6 @@
 	(hierarchical_label "SPICS1"
 		(shape output)
 		(at 182.88 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1038,7 +931,6 @@
 	(hierarchical_label "SPIWP"
 		(shape output)
 		(at 182.88 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1050,7 +942,6 @@
 	(hierarchical_label "SPICLK"
 		(shape output)
 		(at 182.88 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1062,7 +953,6 @@
 	(hierarchical_label "SPICS0"
 		(shape output)
 		(at 182.88 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1070,82 +960,6 @@
 			(justify left)
 		)
 		(uuid "ceeb82be-9a2b-4e40-8d3a-558c59a6093a")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "06061638-8a66-4cc2-8dda-d08483d659d8")
-		(property "Reference" "TP6"
-			(at 139.827 90.7359 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VDD_SPI"
-			(at 139.827 93.1601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 138.43 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "223ca6b3-b939-4971-acd8-b80557bfd0d7")
-		)
-		(instances
-			(project "Display_pcb"
-				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/8e85ac6e-1427-45a0-aa64-3ffb0278b793"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
@@ -1231,6 +1045,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 152.4 113.03 0)
 			(effects
 				(font
@@ -1421,6 +1253,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 125.73 100.33 0)
 			(effects
 				(font
@@ -1631,6 +1481,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 173.99 97.79 0)
 			(effects
 				(font

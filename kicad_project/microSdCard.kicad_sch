@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "ee8459ce-94b5-4af2-855c-1940376985f0")
 	(paper "A4")
+	(title_block
+		(title "WebScreen Project")
+		(date "2024-11-02")
+		(rev "1.2")
+		(company "HW Media Lab LLC")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
 			(exclude_from_sim no)
@@ -1087,10 +1093,23 @@
 		)
 		(uuid "f9fcc9eb-6573-4e97-9408-abb3987e9f99")
 	)
+	(text "Micro SD"
+		(exclude_from_sim no)
+		(at 241.046 27.432 0)
+		(effects
+			(font
+				(face "ISOCPEUR")
+				(size 7.62 7.62)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e32f8372-dbb6-4169-87ae-706439926ff2")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 199.39 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1102,7 +1121,6 @@
 	(hierarchical_label "CS_SD"
 		(shape input)
 		(at 163.83 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1114,7 +1132,6 @@
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 199.39 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1126,7 +1143,6 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 199.39 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1218,6 +1234,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 196.85 87.63 0)
 			(effects
 				(font
@@ -1324,6 +1358,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 181.61 87.63 0)
 			(effects
 				(font
@@ -1496,6 +1548,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 189.23 87.63 0)
 			(effects
 				(font
@@ -1806,6 +1876,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8ec3c12-ae0c-40ff-b76b-5ddbd12d2762")
 		)
@@ -2036,6 +2124,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 101.6 0)
 			(effects
 				(font

@@ -2,7 +2,8 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/B3U_1000P.step','2017-02-04T15:14:32',('Author'),(''
+'/home/marcos/electronica/paltatech/projects/leov/VESC-controller_
+hw/pcb_design/3Dlib/B3U_1000P.step','2017-02-04T15:14:32',('Author'),(''
     ),'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;

@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/Fabrication_Files_v2.1/",
+      "plot": "../",
       "pos_files": "production/Fabrication_Files_v2.1/",
       "specctra_dsn": "",
       "step": "../../WebScreen-Enclosure-Design/Small Version/Display_pcb.step",
@@ -537,7 +537,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Display_pcb.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -641,6 +641,18 @@
           "label": "MFN",
           "name": "MFN",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -678,7 +690,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

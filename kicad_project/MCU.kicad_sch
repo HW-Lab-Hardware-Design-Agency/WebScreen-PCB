@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "WebScreen Project")
-		(rev "0")
+		(date "2024-11-02")
+		(rev "1.2")
 		(company "HW Media Lab LLC")
 	)
 	(lib_symbols
@@ -2703,6 +2704,12 @@
 		(uuid "bd22dc8d-b447-4d42-906e-0f307c46aa4e")
 	)
 	(junction
+		(at 31.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc48247-86a9-4bd5-b09c-7f090b0f1765")
+	)
+	(junction
 		(at 110.49 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2735,10 +2742,6 @@
 	(no_connect
 		(at 176.53 96.52)
 		(uuid "5312d7a5-dcd4-48ea-95f0-c93959e91bcc")
-	)
-	(no_connect
-		(at 176.53 99.06)
-		(uuid "575b62af-ae4c-46e2-938e-13d965c2c9e5")
 	)
 	(no_connect
 		(at 176.53 88.9)
@@ -2894,6 +2897,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb09e3f-9f19-4322-870e-aa64b4ca066a")
+	)
+	(wire
+		(pts
 			(xy 67.31 73.66) (xy 81.28 73.66)
 		)
 		(stroke
@@ -3014,6 +3027,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 95.25) (xy 31.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61eac301-b604-4900-a2d3-65c9fc377196")
+	)
+	(wire
+		(pts
 			(xy 82.55 165.1) (xy 90.17 165.1)
 		)
 		(stroke
@@ -3091,6 +3114,16 @@
 			(type default)
 		)
 		(uuid "75090a53-0dde-43a3-b9e4-97b3bf82a6a7")
+	)
+	(wire
+		(pts
+			(xy 31.75 96.52) (xy 48.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776d8c05-d1db-43bf-ba2a-df07857b67ff")
 	)
 	(wire
 		(pts
@@ -3563,9 +3596,23 @@
 		)
 		(uuid "6ab5aef5-fb24-4675-8f33-2aeda1c1ecdf")
 	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 255.778 28.956 0)
+		(effects
+			(font
+				(face "ISOCPEUR")
+				(size 7.62 7.62)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "73c23f5d-35bc-425c-989a-2b06060d5855")
+	)
 	(text "Check this design: 1-N8R8CT-ND (Digikey part number)"
 		(exclude_from_sim no)
-		(at 20.32 20.32 0)
+		(at 17.78 -8.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3585,9 +3632,19 @@
 		)
 		(uuid "d5cc78d1-4201-4145-940d-16e40690ab78")
 	)
+	(text "ON/OFF DISPLAY"
+		(exclude_from_sim no)
+		(at 32.766 113.03 0)
+		(effects
+			(font
+				(face "ISOCPEUR")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "df3a83c8-e575-46aa-8094-aa6364b1525a")
+	)
 	(label "GPIO0"
 		(at 81.28 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3596,9 +3653,28 @@
 		)
 		(uuid "0ac5f90b-8d07-48ec-b89e-9006d52f9860")
 	)
+	(label "GPIO33"
+		(at 185.42 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1afbcfb2-b7df-474a-97ca-2fcbd17c87d1")
+	)
+	(label "GPIO33"
+		(at 48.26 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d14013c-9b8f-4fd0-be9e-e69fed9cbd60")
+	)
 	(label "LNA"
 		(at 118.11 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3609,7 +3685,6 @@
 	)
 	(label "GPIO1"
 		(at 119.38 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,7 +3695,6 @@
 	)
 	(label "GPIO1"
 		(at 238.76 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3631,7 +3705,6 @@
 	)
 	(label "LNA"
 		(at 90.17 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3642,7 +3715,6 @@
 	)
 	(label "GPIO0"
 		(at 119.38 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,7 +3726,6 @@
 	(hierarchical_label "GPIO16"
 		(shape bidirectional)
 		(at 151.13 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,7 +3737,6 @@
 	(hierarchical_label "GPIO12"
 		(shape bidirectional)
 		(at 138.43 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3678,7 +3748,6 @@
 	(hierarchical_label "GPIO40"
 		(shape bidirectional)
 		(at 163.83 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3690,7 +3759,6 @@
 	(hierarchical_label "GPIO2_SCL"
 		(shape bidirectional)
 		(at 125.73 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3702,7 +3770,6 @@
 	(hierarchical_label "OL_D2"
 		(shape bidirectional)
 		(at 176.53 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3714,7 +3781,6 @@
 	(hierarchical_label "OL_D1"
 		(shape bidirectional)
 		(at 125.73 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,7 +3792,6 @@
 	(hierarchical_label "U0TXD"
 		(shape bidirectional)
 		(at 153.67 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3738,7 +3803,6 @@
 	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 158.75 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3750,7 +3814,6 @@
 	(hierarchical_label "GPIO3_SDA"
 		(shape bidirectional)
 		(at 125.73 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3762,7 +3825,6 @@
 	(hierarchical_label "GPIO21"
 		(shape bidirectional)
 		(at 163.83 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3774,7 +3836,6 @@
 	(hierarchical_label "SPICS1"
 		(shape bidirectional)
 		(at 166.37 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3786,7 +3847,6 @@
 	(hierarchical_label "SPICSO"
 		(shape bidirectional)
 		(at 176.53 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,7 +3858,6 @@
 	(hierarchical_label "GPIO42"
 		(shape bidirectional)
 		(at 156.21 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3810,7 +3869,6 @@
 	(hierarchical_label "OL_CS"
 		(shape bidirectional)
 		(at 125.73 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3822,7 +3880,6 @@
 	(hierarchical_label "GPIO11"
 		(shape bidirectional)
 		(at 135.89 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3834,7 +3891,6 @@
 	(hierarchical_label "OL_TE"
 		(shape bidirectional)
 		(at 125.73 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3846,7 +3902,6 @@
 	(hierarchical_label "GPIO41"
 		(shape bidirectional)
 		(at 158.75 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3858,7 +3913,6 @@
 	(hierarchical_label "GPIO10"
 		(shape bidirectional)
 		(at 133.35 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3870,7 +3924,6 @@
 	(hierarchical_label "GPIO15"
 		(shape bidirectional)
 		(at 148.59 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3882,7 +3935,6 @@
 	(hierarchical_label "SPICLK"
 		(shape bidirectional)
 		(at 176.53 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,7 +3946,6 @@
 	(hierarchical_label "GPIO14"
 		(shape bidirectional)
 		(at 143.51 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3906,7 +3957,6 @@
 	(hierarchical_label "OL_SCK"
 		(shape bidirectional)
 		(at 176.53 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3918,7 +3968,6 @@
 	(hierarchical_label "GPIO39"
 		(shape bidirectional)
 		(at 166.37 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,7 +3979,6 @@
 	(hierarchical_label "OL_RESET"
 		(shape bidirectional)
 		(at 153.67 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3942,7 +3990,6 @@
 	(hierarchical_label "GPIO4"
 		(shape bidirectional)
 		(at 125.73 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3954,7 +4001,6 @@
 	(hierarchical_label "SPIWP"
 		(shape bidirectional)
 		(at 176.53 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3966,7 +4012,6 @@
 	(hierarchical_label "GPIO38"
 		(shape bidirectional)
 		(at 168.91 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,10 +4020,20 @@
 		)
 		(uuid "ba628ea8-6e14-45ff-aee4-6cffa0bcd809")
 	)
+	(hierarchical_label "GPIO1"
+		(shape output)
+		(at 119.38 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd8536c1-df65-41ef-9ff6-7fc5572fc40a")
+	)
 	(hierarchical_label "SPIQ"
 		(shape bidirectional)
 		(at 176.53 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3990,7 +4045,6 @@
 	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 161.29 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4002,7 +4056,6 @@
 	(hierarchical_label "OL_D0"
 		(shape bidirectional)
 		(at 156.21 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4014,7 +4067,6 @@
 	(hierarchical_label "GPIO46"
 		(shape bidirectional)
 		(at 146.05 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4026,7 +4078,6 @@
 	(hierarchical_label "LNA_IN"
 		(shape bidirectional)
 		(at 53.34 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4038,7 +4089,6 @@
 	(hierarchical_label "SPID"
 		(shape bidirectional)
 		(at 176.53 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4050,7 +4100,6 @@
 	(hierarchical_label "SPIHD"
 		(shape bidirectional)
 		(at 176.53 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4062,7 +4111,6 @@
 	(hierarchical_label "OL_SDO"
 		(shape bidirectional)
 		(at 125.73 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4122,6 @@
 	(hierarchical_label "OL_D3"
 		(shape bidirectional)
 		(at 125.73 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4086,7 +4133,6 @@
 	(hierarchical_label "U0RXD"
 		(shape bidirectional)
 		(at 151.13 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4098,7 +4144,6 @@
 	(hierarchical_label "GPIO45"
 		(shape bidirectional)
 		(at 148.59 66.04 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4110,7 +4155,6 @@
 	(hierarchical_label "GPIO13"
 		(shape bidirectional)
 		(at 140.97 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4147,7 +4191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hwlab:B3U-1000P"
+		(property "Footprint" "smd-non-ipc:B3U-1000P"
 			(at 55.88 101.6 0)
 			(effects
 				(font
@@ -4202,6 +4246,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -4356,7 +4418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C161415"
+		(property "LCSC Part #" "C161415"
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -4375,6 +4437,24 @@
 			)
 		)
 		(property "MPN" " GRM0335C1H1R8BA01D"
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -4550,6 +4630,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -4829,6 +4927,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "112b1fe8-45fc-4220-ab23-7b369827a59a")
 		)
@@ -4935,6 +5051,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f01d4d0-0165-48d6-9a4d-c02e566114ad")
 		)
@@ -5012,6 +5146,73 @@
 			(project "Display_pcb"
 				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f134e88-a544-4b14-b03c-f0b09966fe0c")
+		(property "Reference" "#PWR052"
+			(at 31.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 110.8131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca61364-ae87-4f88-ac82-c491a929caa6")
+		)
+		(instances
+			(project "Display_pcb"
+				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C161415"
+		(property "LCSC Part #" "C161415"
 			(at 64.77 171.45 0)
 			(effects
 				(font
@@ -5308,6 +5509,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 64.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1994aed-85d6-491b-b64f-8ae1cb45984b")
 		)
@@ -5318,6 +5537,130 @@
 			(project "Display_pcb"
 				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 31.75 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b71cf29-b270-42dc-a5b6-88f01ca61e72")
+		(property "Reference" "SW3"
+			(at 32.893 100.7965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B3U-1000P"
+			(at 32.893 102.8121 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "smd-non-ipc:B3U-1000P"
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-b3u.pdf"
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 31.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "2.5mm 1.6mm Round Button 50mA Brick nogging 3mm SPST 153gf 12V SMD,2.5x3mm Tactile Switches ROHS"
+			(at 31.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C231329"
+			(at 31.75 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f319d0-d023-42d5-8f46-3a795bbb8daf")
+		)
+		(pin "2"
+			(uuid "67560016-22e5-4ea0-b1a8-407f326bbc55")
+		)
+		(instances
+			(project "Display_pcb"
+				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5458,6 +5801,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 31.75 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f53e76-f329-4f21-a3bf-42b54a1c9a67")
+		(property "Reference" "#PWR054"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37dc8380-a9c3-4a0c-a0a0-4a8e3323da17")
+		)
+		(instances
+			(project "Display_pcb"
+				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 106.68 0)
 		(unit 1)
@@ -5529,9 +5938,9 @@
 		(at 247.65 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4fa5e967-fc71-491f-a48e-7b5d80c7b414")
 		(property "Reference" "DS1"
 			(at 254 128.27 0)
@@ -5613,6 +6022,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 247.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 247.65 128.27 0)
 			(effects
 				(font
@@ -5806,6 +6233,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.85 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9acade67-e948-47de-872a-27e06ee776df")
 		)
@@ -5904,6 +6349,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 158.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 158.75 38.1 0)
 			(effects
 				(font
@@ -6018,6 +6481,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61cf1195-efc8-4a9c-bafd-593975243e82")
 		)
@@ -6114,6 +6595,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 90.17 73.66 0)
 			(effects
 				(font
@@ -6295,6 +6794,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e22d778a-c219-4d4e-a915-0882615dceaf")
 		)
@@ -6393,6 +6910,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 54.61 77.47 0)
 			(effects
 				(font
@@ -6644,7 +7179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "hwlab:B3U-1000P"
+		(property "Footprint" "smd-non-ipc:B3U-1000P"
 			(at 83.82 101.6 0)
 			(effects
 				(font
@@ -6699,6 +7234,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -6805,6 +7358,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 110.49 58.42 0)
 			(effects
 				(font
@@ -6984,6 +7555,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 73.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10b733ab-b6b3-4b66-a175-9d4b34002612")
 		)
@@ -7082,6 +7671,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 102.87 101.6 0)
 			(effects
 				(font
@@ -7254,6 +7861,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -7435,6 +8060,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b5a6ad4-daa9-4cd4-b2ec-50251caf95b1")
 		)
@@ -7445,6 +8088,130 @@
 			(project "Display_pcb"
 				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3eda50d-6a2c-4658-a515-4b397ad71c91")
+		(property "Reference" "R7"
+			(at 33.528 90.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 33.528 92.6521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.972 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0103TCE_C25531.pdf"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGJ0103TCE"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25531"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad21506e-2082-4922-97f1-e496fbbd71e8")
+		)
+		(pin "2"
+			(uuid "ddcab363-5824-4986-a88b-748b69a94155")
+		)
+		(instances
+			(project "Display_pcb"
+				(path "/b5a94c04-25f7-450f-b87b-275489bc56c3/5f4c7f7e-308a-4ede-9082-05c5f8296645"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7533,6 +8300,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -8047,6 +8832,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 194.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c60496df-de8b-4dd9-bda6-72baf868d549")
 		)
@@ -8153,6 +8956,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfae4673-0adc-4e5a-8c59-cf43b99fe886")
 		)
@@ -8248,6 +9069,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -8502,6 +9341,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d87fd095-bcb2-496b-8920-7db224f140e9")
 		)
@@ -8522,9 +9379,9 @@
 		(at 247.65 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df183453-412e-4797-a1ca-1e73f0dba278")
 		(property "Reference" "R7"
 			(at 250.19 118.11 0)
@@ -8624,6 +9481,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 247.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 247.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 247.65 119.38 0)
 			(effects
 				(font
@@ -8742,6 +9617,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 205.74 58.42 0)
 			(effects
 				(font
@@ -9123,6 +10016,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d0eec46-286b-4a34-8a44-d8c626bb27b7")
 		)
@@ -9287,6 +10198,24 @@
 			)
 		)
 		(property "MFN" ""
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 140.97 44.45 0)
 			(effects
 				(font

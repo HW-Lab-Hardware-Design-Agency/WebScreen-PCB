@@ -2,7 +2,9 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'/home/r_0603_h078.step','2017-01-10T01:17:42',(
+'/home/marcos/electronica/Mrk 
+industries/tools/kicad/libs/kicad-3d-models-in-freecad/cadquery/FCAD_
+script_generator/generated_res/r_0603_h078.step','2017-01-10T01:17:42',(
     'Author'),(''),'Open CASCADE STEP processor 6.8','FreeCAD','Unknown'
   );
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
