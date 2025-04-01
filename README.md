@@ -1,3 +1,5 @@
+[![License: CERN-OHL-P-2.0](https://img.shields.io/badge/license-CERN_OHL_P_2.0-blue.svg)](https://opensource.org/license/cern-ohl-p) ![Issues](https://img.shields.io/github/issues/HW-Lab-Hardware-Design-Agency/WebScreen-PCB) [![image](https://img.shields.io/badge/website-WebScreen.cc-D31027)](https://webscreen.cc) [![image](https://img.shields.io/badge/view_on-CrowdSupply-099)](https://www.crowdsupply.com/hw-media-lab/webscreen)
+
 ![image](https://github.com/user-attachments/assets/3aa54ad0-8005-4584-829c-aec8829fc97d)
 
 # WebScreen-PCB
