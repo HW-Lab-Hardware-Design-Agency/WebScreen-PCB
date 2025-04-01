@@ -31,10 +31,10 @@ WebScreen-PCB is the design of a printed circuit board (PCB) for the WebScreen, 
 3. Assemble the PCB.  
 4. [Integrate the PCB with the WebScreen](https://www.youtube.com/watch?v=CHH5L84EN5o&t=6s) and perform the corresponding tests.
 
-License
+## License
 This project is open source. See the [LICENSE](https://github.com/HW-Lab-Hardware-Design-Agency/WebScreen-PCB/blob/main/LICENSE) file for details.
 
-Contact
+## Contact
 For inquiries or contributions, please contact the development team through the repository issues or via email.
 
 ![image](https://github.com/user-attachments/assets/3aa54ad0-8005-4584-829c-aec8829fc97d)
