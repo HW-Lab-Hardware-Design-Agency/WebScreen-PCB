@@ -1,7 +1,5 @@
 [![License: CERN-OHL-P-2.0](https://img.shields.io/badge/license-CERN_OHL_P_2.0-blue.svg)](https://opensource.org/license/cern-ohl-p) ![Issues](https://img.shields.io/github/issues/HW-Lab-Hardware-Design-Agency/WebScreen-PCB) [![image](https://img.shields.io/badge/website-WebScreen.cc-D31027)](https://webscreen.cc) [![image](https://img.shields.io/badge/view_on-CrowdSupply-099)](https://www.crowdsupply.com/hw-media-lab/webscreen)
 
-![image](https://github.com/user-attachments/assets/3aa54ad0-8005-4584-829c-aec8829fc97d)
-
 # WebScreen-PCB
 
 WebScreen-PCB is the design of a printed circuit board (PCB) for the WebScreen, a display device with a custom stand. This project is developed by **HW Lab - Hardware Design Agency** and aims to optimize the integration and functionality of the WebScreen in various applications.
@@ -38,3 +36,5 @@ This project is open source. See the [LICENSE](https://github.com/HW-Lab-Hardwar
 
 Contact
 For inquiries or contributions, please contact the development team through the repository issues or via email.
+
+![image](https://github.com/user-attachments/assets/3aa54ad0-8005-4584-829c-aec8829fc97d)
