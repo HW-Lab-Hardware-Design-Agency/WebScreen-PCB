@@ -1170,7 +1170,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8db4901-110f-4e16-9705-96c4b8b1fbc7")
@@ -1182,7 +1182,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1055dadc-3454-45ae-bff7-7414c3ff6adb")
@@ -1416,7 +1416,7 @@
 			(uuid "6d70f2e1-f41e-4f1c-b95a-ec35c387c3e6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8ee8f9f8-620c-4a8e-86ac-aec0a46e8cc1")
 			(effects
@@ -6268,7 +6268,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C28"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "105ce4de-8e63-4a31-8e69-d30def0970bd")
@@ -6280,7 +6280,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7fb5b6ae-f577-4059-8dad-a2b8620f45e9")
@@ -6514,7 +6514,7 @@
 			(uuid "38c6f980-6c68-420d-a419-50ee374dc7a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c48e5d3c-fecc-4336-a2aa-aacea6683627")
 			(effects
@@ -10400,7 +10400,7 @@
 		(pad "1" smd rect
 			(at -6.58 -0.2)
 			(size 3.94 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10410,7 +10410,7 @@
 		(pad "1" smd rect
 			(at -5.48 -2.42 270)
 			(size 2.7 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10420,7 +10420,7 @@
 		(pad "1" smd rect
 			(at -4.38 -0.85)
 			(size 2.64 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10430,7 +10430,7 @@
 		(pad "1" smd rect
 			(at -3.13 0.22 270)
 			(size 2 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10440,7 +10440,7 @@
 		(pad "1" smd rect
 			(at -1.88 -0.85)
 			(size 2.64 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10450,7 +10450,7 @@
 		(pad "1" smd rect
 			(at -0.78 -2.42 270)
 			(size 2.7 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10460,7 +10460,7 @@
 		(pad "1" smd rect
 			(at 0.32 -0.85)
 			(size 2.64 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10470,7 +10470,7 @@
 		(pad "1" smd rect
 			(at 1.57 0.22 270)
 			(size 2 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10480,7 +10480,7 @@
 		(pad "1" smd rect
 			(at 2.82 -0.85)
 			(size 2.64 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10490,7 +10490,7 @@
 		(pad "1" smd rect
 			(at 5.02 0.28)
 			(size 4.9 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10500,7 +10500,7 @@
 		(pad "1" smd rect
 			(at 5.07 -2.42 270)
 			(size 5 0.5)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 7 "/MCU/LNA_IN")
 			(pinfunction "FP")
 			(pintype "input")
@@ -10510,7 +10510,7 @@
 		(pad "2" smd rect
 			(at 7.12 0.27)
 			(size 4.9 0.9)
-			(layers "F.Cu")
+			(layers "F.Cu" "F.Mask")
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
@@ -12302,7 +12302,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49629c16-ac19-4047-855e-91dac64763de")
@@ -12314,7 +12314,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5dbc93e-e3df-476d-965f-b9d0df756626")
@@ -12548,7 +12548,7 @@
 			(uuid "9d5e05f1-7c34-476b-bb60-f68d6cf0eebf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "711bfd5d-bc0e-4599-9dc7-18da35298c14")
 			(effects
@@ -14293,7 +14293,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ea012b8-a0bb-41ad-995d-e689456ca329")
@@ -14305,7 +14305,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a3b6e03-d644-4845-9387-cd1ec978b6f3")
@@ -14539,7 +14539,7 @@
 			(uuid "58cc649e-06af-4831-b74c-d59e1828d729")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bc3123a6-c559-4f39-9aca-788e4dd613e4")
 			(effects
@@ -21033,7 +21033,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2c9b44b2-c2d3-484f-98f3-58d8f3b7c10c")
@@ -21045,7 +21045,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea56f7c4-52d3-42be-b61c-a621fab264ab")
@@ -21279,7 +21279,7 @@
 			(uuid "06a779fa-bbe7-4413-8124-238416439e24")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9b4ac25c-edbd-490e-ab09-c58566b80210")
 			(effects
