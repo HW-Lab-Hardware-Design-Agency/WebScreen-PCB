@@ -1,4 +1,4 @@
-24693813963203862
+24697316730351211
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99428,6 +99428,13 @@ CAPC2828X260
 2
 2
 smd-non-ipc
+CE_logo
+
+
+0
+0
+0
+smd-non-ipc
 DFE252012P-1R0M=P2
 
 DFE252012P-1R0M=P2 
@@ -99483,6 +99490,13 @@ Integrated Circuit
 0
 57
 57
+smd-non-ipc
+QR_webscreenCC
+
+
+0
+0
+0
 smd-non-ipc
 SMD32324-4P
 
