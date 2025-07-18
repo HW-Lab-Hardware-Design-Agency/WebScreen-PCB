@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../",
+      "plot": "../Layout/",
       "pos_files": "production/Fabrication_Files_v2.1/",
       "specctra_dsn": "",
       "step": "../../WebScreen-Enclosure-Design/Small Version/Display_pcb.step",
