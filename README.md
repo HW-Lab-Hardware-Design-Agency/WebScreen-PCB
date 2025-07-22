@@ -4,7 +4,7 @@
 
 WebScreen-PCB is the design of a printed circuit board (PCB) for the WebScreen, a display device with a custom stand. This project is developed by **HW Lab - Hardware Design Agency** and aims to optimize the integration and functionality of the WebScreen in various applications.
 
-![image](https://github.com/user-attachments/assets/c939e67f-71b0-49fd-ac3d-34f1d33df3a1)
+<img width="1162" height="334" alt="image" src="https://github.com/user-attachments/assets/c8dde640-700f-4c11-9347-a4428bc9e1d1" />
 
 ## Main Features
 - **Optimized Design**: Compact and efficient PCB. 
